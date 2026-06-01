@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rendermint | The Next Generation of Visual Marketing</title>
+  <meta name="description" content="Rendermint delivers platform-ready video and visual creative at speed and scale—from product shots to long-form spots—with a focus on compliance and unified brand marketing.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preload" href="assets/hero-video-last.mp4" as="video">
+  <link rel="preload" href="assets/hero-video-2.mov" as="video">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="#" class="logo">Rendermint</a>
+      <ul class="nav-links">
+        <li><a href="#services">About Us</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact" class="nav-cta">Get in Touch</a></li>
+      </ul>
+      <button class="mobile-menu-btn" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-bg">
+        <div class="hero-gradient"></div>
+        <div class="hero-grid"></div>
+        <div class="hero-glow"></div>
+      </div>
+      <div class="hero-inner">
+        <div class="hero-content">
+          <p class="hero-label">Visual marketing at speed and scale</p>
+          <h1 class="hero-title">
+            <span class="line">Compliant creatives,</span>
+            <span class="line accent">reimagined</span>
+          </h1>
+          <p class="hero-subtitle">
+            Rendermint combines frontier AI with deep compliance expertise to deliver premium creatives tailored to every state and platform you operate in, at a scale and speed no traditional agency can match.
+          </p>
+          <div class="hero-cta">
+            <a href="#contact" class="btn btn-primary">Let's Create</a>
+            <a href="#work" class="btn btn-secondary">See Our Work</a>
+          </div>
+        </div>
+        <div class="hero-video-wrap">
+          <div class="hero-video-inner">
+            <div class="hero-video-slide hero-video-current" data-video="0">
+              <video id="hero-video-1" src="assets/hero-video-last.mp4" autoplay muted playsinline preload="auto"></video>
+            </div>
+            <div class="hero-video-slide hero-video-next" data-video="1">
+              <video id="hero-video-2" src="assets/hero-video-2.mov" muted playsinline preload="auto"></video>
+            </div>
+            <video id="hero-video-preload" muted playsinline preload="auto" class="hero-video-preload" aria-hidden="true"></video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="container">
+        <p class="section-label">What We Do</p>
+        <h2 class="section-title">Better creatives, built for regulated markets, delivered before you need it</h2>
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="23 7 16 12 23 17 23 7"/>
+                <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
+              </svg>
+            </div>
+            <h3>Quality that Compounds</h3>
+            <p>The work looks good from day one, and keeps getting better. As AI models advance, so does everything we produce without the client having to think about it, switch tools, or re-brief anyone.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                <path d="M2 17l10 5 10-5"/>
+              </svg>
+            </div>
+            <h3>Hyperlocal Personalization</h3>
+            <p>A brand operating in five states shouldn't look like it's running one generic campaign across all of them. Rendermint tailors every asset to the regulatory rules, cultural context, and platform specs of each specific market, automatically.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <h3>Effortless Speed</h3>
+            <p>The days of waiting weeks for an agency to turn around revisions are over. From brief to publish-ready creative, the process is fast, flexible, and as iterative as you need it to be. When a regulation changes or a product drops, you're ready.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="work">
+      <div class="container">
+        <p class="section-label">Selected Work</p>
+        <h2 class="section-title">Brands marketing confidently across channels</h2>
+        <div class="work-grid">
+          <a href="#" class="work-card work-card--video work-card--video-beer">
+            <div class="work-image work-image--video">
+              <div class="work-video-wrap">
+                <video src="assets/beer-ad.mp4" autoplay muted loop playsinline></video>
+              </div>
+            </div>
+            <div class="work-info">
+              <h3>Alcoholic beverages</h3>
+              <p>Advertisement created for an up-and-coming hard seltzer brand, run across the Meta Suite.</p>
+            </div>
+          </a>
+          <a href="#" class="work-card work-card--video">
+            <div class="work-image work-image--video">
+              <div class="work-video-wrap">
+                <video src="assets/thc-beverage.mov" autoplay muted loop playsinline></video>
+              </div>
+            </div>
+            <div class="work-info">
+              <h3>THC drinks</h3>
+              <p>Platform-safe visual creative for a THC beverage brand, built for social and digital.</p>
+            </div>
+          </a>
+          <a href="#" class="work-card work-card--video work-card--video-thc">
+            <div class="work-image work-image--video">
+              <div class="work-video-wrap">
+                <video src="assets/dispensary-showcase.mov" autoplay muted loop playsinline></video>
+              </div>
+            </div>
+            <div class="work-info">
+              <h3>Dispensaries</h3>
+              <p>In-store product showcase for a dispensary's new product line.</p>
+            </div>
+          </a>
+        </div>
+        <div class="work-reviews">
+          <p class="work-reviews-label">What clients say</p>
+          <div class="work-reviews-carousel">
+            <button type="button" class="work-reviews-arrow work-reviews-arrow--prev" aria-label="Previous reviews">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <button type="button" class="work-reviews-arrow work-reviews-arrow--next" aria-label="Next reviews">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+            </button>
+            <div class="work-reviews-viewport">
+              <div class="work-reviews-track">
+                <!-- 9 reviews; JS will rebuild track for infinite scroll -->
+                <blockquote class="work-review-card" data-review="0">
+                  <p class="work-review-text">Much appreciated! Looks really good—we will be coming back to do more work in the future for sure.</p>
+                </blockquote>
+                <blockquote class="work-review-card" data-review="1">
+                  <p class="work-review-text">Holy cow. You guys are freaking AMAZING!!! That is SO ENGAGING!!!!!</p>
+                </blockquote>
+                <blockquote class="work-review-card" data-review="2">
+                  <p class="work-review-text">Wow that is awesome! I love it! That's what I'm talking about. I need more commercials like that!</p>
+                </blockquote>
+                <blockquote class="work-review-card" data-review="3">
+                  <p class="work-review-text">Man that's awesome. Really excited thank you so much!</p>
+                </blockquote>
+                <blockquote class="work-review-card" data-review="4">
+                  <p class="work-review-text">This is 🔥—exactly what I was hoping for. Great work!</p>
+                </blockquote>
+                <blockquote class="work-review-card" data-review="5">
+                  <p class="work-review-text">Wow… that turned out so clean. Love the vibe.</p>
+                </blockquote>
+                <blockquote class="work-review-card" data-review="6">
+                  <p class="work-review-text">You nailed it; super engaging and on-brand.</p>
+                </blockquote>
+                <blockquote class="work-review-card" data-review="7">
+                  <p class="work-review-text">This is sick. Can't stop watching it lol.</p>
+                </blockquote>
+                <blockquote class="work-review-card" data-review="8">
+                  <p class="work-review-text">Unreal. This is top-of-the-line—thank you!</p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="contact-wrapper">
+          <p class="section-label">Let's Talk</p>
+          <h2 class="contact-title">Ready to scale your visual marketing?</h2>
+          <p class="contact-subtitle">Tell us about your brand and what you're looking for. We'll set up a meeting to create ads that convert.</p>
+          <form class="contact-form">
+            <div class="form-row">
+              <input type="text" name="name" placeholder="Your name" required>
+              <input type="email" name="email" placeholder="Email address" required>
+            </div>
+            <input type="text" name="company" placeholder="Brand / Company name">
+            <textarea name="message" rows="4" placeholder="Tell us about your brand:"></textarea>
+            <button type="submit" class="btn btn-primary btn-full">Get in Touch</button>
+          </form>
+          <div class="contact-info">
+            <a href="mailto:hello@rendermintai.com">hello@rendermintai.com</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <a href="#" class="logo">Rendermint</a>
+        <ul class="footer-links">
+          <li><a href="#services">About Us</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p class="footer-copy">© 2026 Rendermint. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

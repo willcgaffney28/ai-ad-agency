@@ -1,0 +1,42 @@
+[
+  {
+    "id": "seed-001",
+    "name": "Maya R.",
+    "role": "Student",
+    "category": "classroom",
+    "body": "I've been using Claude as a kind of pair-reader for dense philosophy texts. Not to summarize, but to push back on my reading. I'll explain what I think Heidegger is saying and ask it to argue the strongest counter-reading. Then I sit with both and write. The conversation makes my notes sharper.",
+    "createdAt": "2026-05-28T15:12:00.000Z"
+  },
+  {
+    "id": "seed-002",
+    "name": "Prof. Lin",
+    "role": "Faculty",
+    "category": "thought",
+    "body": "What worries me less than I expected: students using AI to write. What worries me more: students using AI to skip the discomfort of not understanding something. The struggle is the learning. We have to be careful what we make easy.",
+    "createdAt": "2026-05-29T09:40:00.000Z"
+  },
+  {
+    "id": "seed-003",
+    "name": "Anonymous",
+    "role": "Student",
+    "category": "classroom",
+    "body": "Office hours hack: I paste the lecture transcript into an AI tool and have it generate a list of questions a confused student might ask. Then I walk into office hours with three real ones. My professor said my questions got noticeably better this term.",
+    "createdAt": "2026-05-30T17:05:00.000Z"
+  },
+  {
+    "id": "seed-004",
+    "name": "Devon K.",
+    "role": "Staff",
+    "category": "thought",
+    "body": "I keep thinking about what 'expertise' means now. The fact that I can ask a tool to draft a memo as well as I would have ten years ago doesn't make my judgment obsolete — it makes my judgment the whole job. That feels harder, not easier.",
+    "createdAt": "2026-05-30T20:22:00.000Z"
+  },
+  {
+    "id": "seed-005",
+    "name": "Sam W.",
+    "role": "Alumni",
+    "category": "classroom",
+    "body": "In my linguistics seminar a few years back, the professor banned AI outright. Now I wonder what that class would look like if she'd instead made us defend our prompts the same way we defend our citations. The interesting work is in the asking.",
+    "createdAt": "2026-05-31T13:48:00.000Z"
+  }
+]
